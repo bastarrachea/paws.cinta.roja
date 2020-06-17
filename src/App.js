@@ -1,29 +1,32 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import './App.css';
 import Navbar from './components/Navbar';
-import Carrousell from './components/Carrousell';
-import Servicios from './components/Servicios';
-import Form from './components/Form';
-import Texto from './components/Texto';
-import Cards from './components/Cards';
+import Footer from "./components/Footer";
+import preguntas from './containers/preguntas';
+import LandingPage from './containers/LandingPage';
+
+
+
 
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Carrousell />
-      <Servicios/>
-      <Form/>
-      <Texto/>
-      <Cards/>
-   
-      
+
+
       <Switch>
-        <Route />
+        <Route exact path="/" component={LandingPage}/> 
+        <Route exact path="/preguntas" component={preguntas} />
+  
       </Switch>
+  
+       <Footer/>
+     
+     
     </BrowserRouter>
+
   );
 }
 
