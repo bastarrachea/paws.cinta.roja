@@ -1,8 +1,15 @@
 import React from 'react';
-import './App.css';
+
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import './App.css';
+import Footer from "./components/Footer";
+import preguntas from './containers/preguntas';
+import CentralImagePreg from './components/CentralImagePreg';
+
+
 import Navbar from './components/Navbar';
 import Carrousell from './components/Carrousell';
+
 
 
 const App = () => {
@@ -10,11 +17,17 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Carrousell />
-      
       <Switch>
-        <Route />
+        <Route exact path="/preguntas" component={preguntas} />
       </Switch>
+  
+       <Footer/>
+
+
+     
+     
     </BrowserRouter>
+
   );
 }
 
