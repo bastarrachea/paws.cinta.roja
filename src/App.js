@@ -6,6 +6,12 @@ import Footer from "./components/Footer";
 import preguntas from './containers/preguntas';
 import LandingPage from './containers/LandingPage';
 
+import NotFound from "./containers/NotFound";
+import IniciarSesion from './containers/IniciarSesion';
+import Registrate from './containers/Registrate';
+
+
+
 
 
 
@@ -15,16 +21,14 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
 
-
       <Switch>
-        <Route exact path="/" component={LandingPage}/> 
+        <Route exact path="/" component={LandingPage} />
         <Route exact path="/preguntas" component={preguntas} />
-  
+        <Route exact path="/iniciar-sesion" component={IniciarSesion} />
+        <Route exact path="/registrate" component={Registrate} />
+        <Route component={NotFound} />
       </Switch>
-  
-       <Footer/>
-     
-     
+      <Footer />
     </BrowserRouter>
 
   );
