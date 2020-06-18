@@ -4,16 +4,23 @@ import Servicios from "../components/Servicios";
 import Form from '../components/Form';
 import Texto from '../components/Texto';
 import Cards from '../components/Cards';
+import Contactanos from '../components/Contactanos';
+import PorqueCuidador from '../components/PorqueCuidador';
 
 
 const LandingPage = () => {
     return (
         <div>
-            <Carrousell />
-            <Servicios />
-            <Form />
-            <Texto />
-            <Cards />
+
+
+          <Carrousell/>
+          <Servicios/>
+          <Form/>
+          <Texto/>
+          <Cards/> 
+          <Contactanos/> 
+          <PorqueCuidador/>
+
         </div>
     )
 }
