@@ -4,6 +4,8 @@ import Servicios from '../components/Servicios';
 import Form from '../components/Form';
 import Texto from '../components/Texto';
 import Cards from '../components/Cards';
+import Contactanos from '../components/Contactanos';
+import PorqueCuidador from '../components/PorqueCuidador';
 
 function LandingPage() {
     return (
@@ -12,7 +14,9 @@ function LandingPage() {
           <Servicios/>
           <Form/>
           <Texto/>
-          <Cards/>  
+          <Cards/> 
+          <Contactanos/> 
+          <PorqueCuidador/>
         </div>
     )
 }
