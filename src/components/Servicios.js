@@ -23,7 +23,7 @@ const Servicios = () => {
                         </Card.Body>
                     </Card>
                     <Card>
-                        <Card.Header><h5 className="card-header d-flex justify-content-center"><img src="https://www.freeiconspng.com/uploads/recruitment-icon-17.png" class="imagenesSmall" />Contrata Cuidadores de tu Confianza</h5></Card.Header>
+                        <Card.Header><h5 className="ml-5"><img src="https://www.freeiconspng.com/uploads/recruitment-icon-17.png" class="imagenesSmall" />Contrata Cuidadores de tu Confianza</h5></Card.Header>
                         <Card.Body>
                             <Card.Text>
                             <p class="card-text">Todos los cuidadores pasan un test de confianza.</p>
