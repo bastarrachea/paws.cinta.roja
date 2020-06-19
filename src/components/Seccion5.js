@@ -3,7 +3,7 @@ import React from 'react';
 
 const Seccion5 = () => {
   return (
-    <div className="container">
+    <div className="container" id="Seccion5">
       <div>
         <h3 className="segundoTexto"> Se parte de nuestro equipo</h3>
       </div>

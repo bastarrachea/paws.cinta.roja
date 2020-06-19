@@ -6,9 +6,11 @@ const Seccion3 = () => {
 
 
         <div className="container">
+
             <div>
                 <h3 className="segundoTexto"> Servicios para tus mascotas</h3>
             </div>
+
 
         <div className="card-body mb-4">
           <div className="steps-form">
