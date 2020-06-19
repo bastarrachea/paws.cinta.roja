@@ -12,6 +12,7 @@ import Seccion5 from '../components/Seccion5';
 import Form2 from '../components/Form2';
 
 
+
 const LandingPage = () => {
     return (
         <div>
@@ -28,6 +29,8 @@ const LandingPage = () => {
           <PorqueCuidador/>
           <Seccion5/>
           <Form2/>
+ 
+          
 
         </div>
     )
