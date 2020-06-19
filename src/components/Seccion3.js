@@ -4,6 +4,7 @@ import React from 'react';
 const Seccion3 = () => {
     return (
         <div className="container">
+          <h3 className="center">  Buscar cuidador</h3>
         <div className="card-body mb-4">
           <div className="steps-form">
             <div className="steps-row setup-panel">
