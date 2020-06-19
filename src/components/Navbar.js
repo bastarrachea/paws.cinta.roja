@@ -14,7 +14,7 @@ const Navbar = () => {
           <a class="nav-link" href="#">Buscar cuidadores</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="formCuidador.html">Conviertete en un cuidador</a>
+          <a class="nav-link" href="#Seccion5">Conviertete en un cuidador</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Servicios">Nuestros servicios</a>
