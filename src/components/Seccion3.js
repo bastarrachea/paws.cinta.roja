@@ -3,7 +3,13 @@ import React from 'react';
 
 const Seccion3 = () => {
     return (
+
+
         <div className="container">
+            <div>
+                <h3 className="segundoTexto"> Servicios para tus mascotas</h3>
+            </div>
+
         <div className="card-body mb-4">
           <div className="steps-form">
             <div className="steps-row setup-panel">
