@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-function Cuidadores() {
-    return (
-        <div>
-            
+const Cuidadores = () => {
+  return (
+    <div>
+      <div className="container">
+        <div className="card">
+          <h1>Cuidadores</h1>
+          
+
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
-export default Cuidadores
+export default Cuidadores;
