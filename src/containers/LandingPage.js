@@ -9,7 +9,8 @@ import PorqueCuidador from '../components/PorqueCuidador';
 import Seccion3 from '../components/Seccion3';
 import Seccion4 from '../components/Seccion4';
 import Seccion5 from '../components/Seccion5';
-import Form2 from '../components/Form2';
+import Form3 from '../components/Form3';
+
 
 
 
@@ -28,7 +29,8 @@ const LandingPage = () => {
           <Contactanos/> 
           <PorqueCuidador/>
           <Seccion5/>
-          <Form2/>
+          <Form3/>
+
  
           
 

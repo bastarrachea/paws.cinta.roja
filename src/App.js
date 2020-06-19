@@ -9,6 +9,7 @@ import LandingPage from './containers/LandingPage';
 import NotFound from "./containers/NotFound";
 import IniciarSesion from './containers/IniciarSesion';
 import Registrate from './containers/Registrate';
+import Cuidadores from './containers/Cuidadores';
 
 
 
@@ -26,7 +27,11 @@ const App = () => {
         <Route exact path="/preguntas" component={preguntas} />
         <Route exact path="/iniciar-sesion" component={IniciarSesion} />
         <Route exact path="/registrate" component={Registrate} />
+        <Route exact path="/cuidadores" component={Cuidadores} />
+        
         <Route component={NotFound} />
+
+  
       </Switch>
       <Footer />
     </BrowserRouter>
